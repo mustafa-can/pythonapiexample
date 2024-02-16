@@ -1,0 +1,4 @@
+flask
+seleniumbase
+Flask-JWT-Extended
+pycryptodome
