@@ -3,8 +3,8 @@ from Crypto.Cipher import AES
 import base64, hashlib
 
 class SecureToken:
-    secret_key = b'thisismysecretkey'  # Use bytes object for Python 3
-    secret_iv = b'www.mysite.com'      # Use bytes object for Python 3
+    secret_key = b'thisismysecretkey' 
+    secret_iv = b'www.mysite.com'     
     encrypt_method = "AES-256-CBC"
 
     @staticmethod
